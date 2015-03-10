@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="mysql-connector-java-5.0.8-bin">
+    <archive path="/Users/lightlycat/IdeaProjects/mysql-connector-java-5.0.8/mysql-connector-java-5.0.8-bin.jar" />
+    <archive path="/Users/lightlycat/IdeaProjects/google-gson-2.2.4/gson-2.2.4.jar" />
+    <archive path="/Users/lightlycat/IdeaProjects/google-gson-2.2.4/gson-2.2.4-javadoc.jar" />
+    <archive path="/Users/lightlycat/IdeaProjects/google-gson-2.2.4/gson-2.2.4-sources.jar" />
+    <archive path="/Users/lightlycat/IdeaProjects/javax.servlet-api-3.0.1.jar" />
+  </library>
+</eclipse-userlibraries>
+

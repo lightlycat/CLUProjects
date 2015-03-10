@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>default.html</welcome-file>
+        <welcome-file>default.htm</welcome-file>
+        <welcome-file>default.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <description>Get Information about Cart - jQuery Ajax Request</description>
+        <display-name>CartInformation</display-name>
+        <servlet-name>CartInformation</servlet-name>
+        <servlet-class>Dispatch.CartInformation</servlet-class>
+    </servlet>
+    <servlet>
+        <description>Insert into Cart</description>
+        <display-name>InsertCart</display-name>
+        <servlet-name>InsertCart</servlet-name>
+        <servlet-class>Dispatch.InsertCart</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartInformation</servlet-name>
+        <url-pattern>/CartInformation</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InsertCart</servlet-name>
+        <url-pattern>/InsertCart</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+
+
